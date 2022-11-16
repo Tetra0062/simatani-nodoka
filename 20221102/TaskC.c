@@ -2,15 +2,13 @@
 
 int main(){
     
+    int data[10];
     
-
-    int rand[10]
-
-    rand = data.length;
-    
-    for(i = 0; i <= data.length; ++i){
+    for(int i = 0; i < 10; ++i){
         
-        printf("data.length%f",i);
+        data[i]=rand();
+
+        printf("%d\n",data[i]);
 
     }
     
