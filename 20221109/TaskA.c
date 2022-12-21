@@ -35,6 +35,28 @@ int main(void){
 
     int result = -1;  //格納
 
+    for(i = 0; i <= result; ++i){
+
+        if(result[i]==target){
+         
+         printf("%d\n",result[i]);
+
+         endFlag = 1;
+
+         break;
+        
+        }
+
+    }
+
+        if(endFlag == 0){
+
+            printf("%d\n",result[i]);
+
+            break;
+
+        }
+  
     return 0;
 
 }
