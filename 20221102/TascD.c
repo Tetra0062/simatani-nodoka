@@ -2,44 +2,29 @@
 
 int main(){
 
-for(int i = 1; i <= 100; i++){
-        
-    //printf("%d\n",i);
+ int i;
 
-    if(i%3==0){
+ for(i = 1; i <= 100; i++){
 
-        int Fizz;
+    if(i % 3 == 0 && i % 5 == 0){
 
-        printf("%d\n",Fizz);
+        printf("FizzBuzz\n");
 
-    }
+    } else if(i % 3 == 0){
 
-     /*   
-    int Fizz;
-    
-        if(i/3==0){
+        printf("Fizz\n");
 
-        printf("%d\n",Fizz);
+    } else if(i % 5 == 0){
 
-        }
+        printf("Buzz\n");
 
-    int Buzz;
-    
-        if(i/5==0){
+    } else {
 
-        printf("%d\n",Buzz);
-
-        }
-
-    int FizzBuzz;
-    
-        if(i/3==0,i/5==0){
-
-        printf("%d\n",FizzBuzz);
-
-        }*/
+        printf("%d\n",i);
 
     }
+
+ }
 
     return 0;
 
