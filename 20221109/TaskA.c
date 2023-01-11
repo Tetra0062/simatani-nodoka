@@ -19,9 +19,9 @@ void shuffle(int array[], int size){
 
 int main(void){
 
-    int data[11] = {0,1,2,3,4,5,6,7,8,9,10};
+    int array[ARRY_SIZE] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};  //data[11] = {0,1,2,3,4,5,6,7,8,9,10};
 
-    shuffle(data,11);
+    //shuffle(data,11);
 
     for(int i = 0; i <= 11; i++){
 
@@ -37,13 +37,13 @@ int main(void){
 
     for(i = 0; i <= result; ++i){
 
-        if(result[i]==target){
+        if(data[i] == target){
          
          printf("%d\n",result[i]);
 
          endFlag = 1;
 
-         break;
+         break();
         
         }
 
@@ -53,10 +53,12 @@ int main(void){
 
             printf("%d\n",result[i]);
 
-            break;
+            break();
 
         }
+
+    printf("targetのインデックスはresultです\n");
   
-    return 0;
+    //return 0;
 
 }
